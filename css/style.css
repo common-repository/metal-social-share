@@ -1,0 +1,45 @@
+body{
+	margin:0;
+}
+.share-button{
+	padding:40px;
+}
+.share-button h2{ 
+	color:#4582EC;
+	padding-left:4px;
+	text-transform:capitalize;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 2px;
+	font-size: 31px;
+	margin: 0;
+	padding-bottom: 10px;
+}
+.share-button ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.share-button ul li{
+	float:left;
+}
+.share-button ul li a{
+	text-decoration:none;
+	display:block;
+	padding:4px;
+}
+.share-button ul li a img{ 
+	-webkit-transition:1s; 
+	transition:1s;
+}
+.share-button ul li a:hover img{
+	-webkit-transform:scale(1.1);
+	        transform:scale(1.1);
+}
+
+.share-button img {
+    height: 30px !important;
+}
+
+.share-button ul li a {
+    border-bottom: none !important;
+}
